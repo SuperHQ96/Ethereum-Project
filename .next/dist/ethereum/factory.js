@@ -1,0 +1,21 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _web = require('./web3');
+
+var _web2 = _interopRequireDefault(_web);
+
+var _GameInstanceFactory = require('./build/GameInstanceFactory.json');
+
+var _GameInstanceFactory2 = _interopRequireDefault(_GameInstanceFactory);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var instance = new _web2.default.eth.Contract(JSON.parse(_GameInstanceFactory2.default.interface), '0x5e3dD6BeCD44bb858182b046Ccf297379dc1DDBc');
+
+exports.default = instance;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiaW5zdGFuY2UiLCJldGgiLCJDb250cmFjdCIsIkpTT04iLCJwYXJzZSIsImludGVyZmFjZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBSUEsV0FBVyxJQUFJLGNBQUtDLEdBQUwsQ0FBU0MsUUFBYixDQUFzQkMsS0FBS0MsS0FBTCxDQUFXLDhCQUFvQkMsU0FBL0IsQ0FBdEIsRUFBaUUsNENBQWpFLENBQWY7O2tCQUVlTCxRIiwiZmlsZSI6InVua25vd24iLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgd2ViMyBmcm9tICcuL3dlYjMnO1xuaW1wb3J0IEdhbWVJbnN0YW5jZUZhY3RvcnkgZnJvbSAnLi9idWlsZC9HYW1lSW5zdGFuY2VGYWN0b3J5Lmpzb24nO1xuXG52YXIgaW5zdGFuY2UgPSBuZXcgd2ViMy5ldGguQ29udHJhY3QoSlNPTi5wYXJzZShHYW1lSW5zdGFuY2VGYWN0b3J5LmludGVyZmFjZSksICcweDVlM2RENkJlQ0Q0NGJiODU4MTgyYjA0NkNjZjI5NzM3OWRjMUREQmMnKTtcblxuZXhwb3J0IGRlZmF1bHQgaW5zdGFuY2U7Il19
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiaW5zdGFuY2UiLCJldGgiLCJDb250cmFjdCIsIkpTT04iLCJwYXJzZSIsImludGVyZmFjZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBSUEsV0FBVyxJQUFJLGNBQUtDLEdBQUwsQ0FBU0MsUUFBYixDQUFzQkMsS0FBS0MsS0FBTCxDQUFXLDhCQUFvQkMsU0FBL0IsQ0FBdEIsRUFBaUUsNENBQWpFLENBQWY7O2tCQUVlTCxRIiwiZmlsZSI6InVua25vd24ifQ==
